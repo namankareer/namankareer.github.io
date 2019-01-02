@@ -10,6 +10,7 @@
   
   .realtime-result {right: inherit;left: inherit;max-width: 100%;text-align: center;top: 15px;width: 100%;}
   .question-mainBox {margin-left: 0;margin-right: 0; max-width: 100%; margin-bottom: 80px; border-radius: 0px;}
+  .ques-innerBox{ padding: 15px;}
   .realtime-result span,.realtime-result p {text-align: center;}
   .navigation-outr {display: flex; justify-content: center; align-items: center; width: 260px; position: absolute; bottom: -30px;float: left; z-index: 9;}
   a.prev {left: 34%;z-index: 9;transform: translateX(-34%);}
@@ -17,6 +18,8 @@
 
   .section-buildoutgrow .buildOutgrow {left: inherit;transform: none;}
   .result-leadform-outr {padding: 10px 20px;}
+  .result-mainBox{ border-radius: 0px;}
+  .result-innerBox{ padding: 0 15px;}
   .result-leadform-input-outr {flex: 1;}
   .result-leadform-input-outr:nth-last-child(1):nth-child(odd){ width: 65%; flex: initial;}
   .result-socia-outr {padding: 0px 20px 30px 20px;}
