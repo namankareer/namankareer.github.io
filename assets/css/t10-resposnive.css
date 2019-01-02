@@ -1,0 +1,26 @@
+/* Mobile css start */
+
+@media (max-width: 767px) {
+  .sec-landing-inner {padding-left: 30px;padding-right: 30px;}
+  .landing-logo {width: 100%;max-width: 100%;left: 0;right: 0;display: flex;justify-content: center;align-items: center;}
+  .section-heading {font-size: 58px;}
+  .section-subheading {font-size: 22px;}
+  .leadform-input-outr {flex: 1;}
+  .buildOutgrow {left: 50%;right: auto;transform: translateX(-50%);}
+  
+  .realtime-result {right: 30px;}
+  .question-mainBox {margin-left: 0;margin-right: 0; max-width: 100%; margin-bottom: 80px;}
+  .ques-innerBox { padding:40px;}
+  .navigation-outr {display: flex; justify-content: center; align-items: center; width: 260px; position: absolute; bottom: -30px;float: left; z-index: 9;}
+  a.prev {left: 34%;z-index: 9;transform: translateX(-34%);}
+  a.next {right: 24%;z-index: 9;transform: translateX(-24%);}
+
+  .section-buildoutgrow .buildOutgrow {left: inherit;transform: none;}
+  .result-leadform-outr {padding: 10px 20px;}
+  .result-leadform-input-outr {flex: 1;}
+  .result-leadform-input-outr:nth-last-child(1):nth-child(odd){ width: 65%; flex: initial;}
+  .result-socia-outr {padding: 0px 20px 30px 20px;}
+}
+
+
+/* Mobile css start */
