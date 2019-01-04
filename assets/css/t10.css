@@ -77,6 +77,9 @@ textarea:-moz-placeholder {color: #444; opacity: 0.4;}
 .leadform-button {display: flex;flex-direction: row; width: 100%;justify-content: center;margin-top: 40px;}
 .leadform-button button {cursor:pointer;padding: 18px 25px; border: none; border-radius: 30px; font-size: 18px; color: #fff;background: #2ec77b; font-family: work_sansbold; letter-spacing: 1px; line-height: 1.4; transition: 0.5s;word-break: break-word; white-space: normal;box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.2);}
 .leadform-button button:hover{ opacity: 0.8;}
+.leadform-button {display: flex;flex-direction: row; width: 100%;justify-content: center;margin-top: 40px;}
+.leadform-button a {cursor:pointer;padding: 18px 25px; border: none; border-radius: 30px; font-size: 18px; color: #fff;background: #2ec77b; font-family: work_sansbold; letter-spacing: 1px; line-height: 1.4; transition: 0.5s;word-break: break-word; white-space: normal;box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.2);}
+.leadform-button a:hover{ opacity: 0.8;}
 .buildOutgrow-outr {float: left;width: 100%;}
 .buildOutgrow {position: absolute;bottom: 30px; right: 40px; background: #fff; display: flex; flex-direction: row;padding: 2px 3px; border-radius: 15px; box-shadow:4px 3px 7px 1px rgba(0,0,0,0.3)}
 .buildOutgrow p {font-size: 10px;display: flex;flex-direction: column-reverse; margin-left: 3px; margin-right: 4px;letter-spacing: 0.8px;}
@@ -85,23 +88,29 @@ textarea:-moz-placeholder {color: #444; opacity: 0.4;}
 .buildOutgrow a p {font-weight: 600; font-size: 11px;}
 
 
-.realtime-Progressbar {background-color: #e8ede9;position: absolute;top: 0;z-index: 9;float: left;width: 100%;min-height: 100px;box-shadow:3px 3px 60px 10px rgba(0,0,0,0.2);}
-.realtime-Progressbar + section.question-Section{position: fixed;height: calc(100% - 100px);overflow-y: auto;overflow-x: hidden;z-index: 1;width: 100%;top: 100px;}
+.realtime-Progressbar {background-color: #e8ede9;position: absolute;bottom: 0;z-index: 9;float: left;width: 100%;min-height: 70px;box-shadow:3px 3px 60px 10px rgba(0,0,0,0.2);}
+.realtime-Progressbar + section.question-Section{position: fixed;height: calc(100% - 70px);overflow-y: auto;overflow-x: hidden;z-index: 1;width: 100%;top: 0px;}
+.realtime-Progressbar .landing-logo{ top: 15px; display: none;}
+.realtime-Progressbar .realtime-result{ top: 15px;}
 
 /* Question Section css start */
 .section-question{float: none;width: 100%;display: table;min-height: 100vh;height: 100%; position: relative;}
-.question-tint{display: table-cell;vertical-align: middle; width: 100%; height: 100%;background-color: #e8ede9;}
-.sec-question-inner {width: 100%; max-width: 800px; display: flex; height: 100%;flex-direction: column; justify-content: center;margin: 0 auto;padding-top: 85px; padding-bottom: 100px;}
+.question-tint{display: table-cell;vertical-align: middle; width: 100%; height: 100%;background-color: #fff;}
+.sec-question-inner {width: 100%; max-width: 800px; display: flex; height: 100%;flex-direction: column; justify-content: center;margin: 0 auto;padding-top: 65px; padding-bottom: 65px;}
 .realtime-result{ position: absolute; top: 30px; right: 40px; text-align: right; max-width: 300px; width: auto;}
-.realtime-result span{ font-size: 24px; text-align: right; width: 100%; float: left; font-family: work_sansbold; color: #2ec77b;}
-.realtime-result p{ color: #2ec77b; font-size: 12px; text-align: right; width: 100%; float: left; display: -webkit-box;-webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-family: work_sansregular; font-weight: 700;}
+.realtime-result span{ font-size: 20px; text-align: right; width: 100%; float: left; font-family: work_sansbold; color: #2ec77b;}
+.realtime-result p{ color: #2ec77b; font-size: 11px; text-align: right; width: 100%; float: left; display: -webkit-box;-webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-family: work_sansregular; font-weight: 700;}
 .timeCounter {display: flex;justify-content: center;}
 .timeCounter span {border-radius: 50%;width: 50px;height: 50px;display: flex;justify-content: center;align-items: center;background: #fff;border: 3px solid #2ec77b;font-family: work_sansbold;}
 .question-progressbar {display: flex; justify-content: center; width: 100%; padding-left: 10px; padding-right: 10px; margin-top: 20px;}
 .question-progressbar ul {display: inline-block;}
 .question-progressbar ul li {display: inline-block;width: 8px;height: 8px;background: transparent;border-radius: 50%;border: 1px solid #2ec77b;}
 .question-progressbar ul li.active {background: #2ec77b;}
-.question-mainBox {width: 100%; margin: 0 auto; border: 1px solid transparent;display: flex;max-width: 648px;background: #fff;min-height: 250px;padding: 10px; align-items: center; border-radius:5px;box-shadow: 0px 10px 30px 20px rgba(0,0,0,0.04);flex-direction: column; justify-content: center; position: relative;}
+.progressComponent {float: none;width: 100%;text-align: center;margin: 0 auto;max-width: 200px;margin-top: 42px;    margin-left: 20px;}
+.pg-bar-outr {background-color: #fff !important; position: relative;border-radius: 5px;border: 0.5px solid #ddd;}
+.progressComponent .pg-bar-outr label {position: absolute;top: -22px;left: 0;font-size: 12px;font-family: work_sansLight;color: #444;}
+.pg-bar-inner {background-color: #2ec77b !important;height: 7px;border-radius: 5px; transition: 0.5s;}
+.question-mainBox {width: 100%; margin: 0 auto; border: 1px solid #ddd;display: flex;max-width: 648px;background: #fff;min-height: 250px;padding: 10px; align-items: center; border-radius:5px;flex-direction: column; justify-content: center; position: relative;}
 .ques-image {display: inline-block;}
 .ques-image img {max-width: 100%;max-height: 330px;}
 .ques-innerBox {float: left;width: 100%;display: block; padding: 15px 25px;}
@@ -117,6 +126,9 @@ a.next {right: -75px;top: 44%;position: absolute;height: 48px;width: 48px;border
 .question-button {display: block;width: 100%; float: left; margin-top: 20px;}
 .question-button button {cursor:pointer;padding: 13px 25px; border: none; border-radius: 30px; font-size: 16px; color: #fff;background: #2ec77b; font-family: work_sansbold; letter-spacing: 1px; line-height: 1.4; transition: 0.5s;word-break: break-word; white-space: normal;}
 .question-button button:hover{ opacity: 0.8;}
+.question-button {display: block;width: 100%; float: left; margin-top: 20px;}
+.question-button a {cursor:pointer;padding: 13px 25px; border: none; border-radius: 30px; font-size: 16px; color: #fff;background: #2ec77b; font-family: work_sansbold; letter-spacing: 1px; line-height: 1.4; transition: 0.5s;word-break: break-word; white-space: normal;}
+.question-button a:hover{ opacity: 0.8;}
 
 .ques-radio-Component {float: left;width: 100%;}
 .ques-radio-Component ul{list-style: none;margin: 0;padding: 0;}
@@ -206,7 +218,7 @@ a.next {right: -75px;top: 44%;position: absolute;height: 48px;width: 48px;border
 /* Result Section css star */
 .result-question{float: none;width: 100%;display: table;min-height: 100vh;height: 100%; position: relative;}
 .result-tint{display: table-cell;vertical-align: middle; width: 100%; height: 100%;background-color: #e8ede9;}
-.sec-result-inner {width: 100%; max-width: 800px; display: flex; max-height: 100%;flex-direction: column; justify-content: center;margin: 0 auto;padding-top: 85px; padding-bottom: 100px;}
+.sec-result-inner {width: 100%; max-width: 800px; display: flex; max-height: 100%;flex-direction: column; justify-content: center;margin: 0 auto;padding-top: 45px; padding-bottom: 100px;}
 
 .sec-result-inner.social-iconOn {padding-bottom: 0;max-height: 100%;height: auto;}
 .sec-result-inner.social-iconOn .buildOutgrow {display: none !important;}
@@ -296,74 +308,3 @@ a.next {right: -75px;top: 44%;position: absolute;height: 48px;width: 48px;border
 .social-icons li a:hover .tooltip::after {content: "";position: absolute;top: 100%;left: 50%;width: 10px;height: 10px;border-top: 6px solid #61696c;border-right: 6px solid transparent;border-left: 6px solid transparent;margin-left: -7px;}
 
 /* Result Section css end */
-
-
-
-
-section.section-question.anim{
-  -webkit-animation-name: slide-up;
-    animation-name: slide-up;
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
-    -webkit-animation-duration: 0.9s;
-    animation-duration: 0.9s;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-
-.progressComponent {
-  float: none;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 270px;
-  margin-top: 55px;
-}
-.pg-bar-outr {
-  background-color: #fff !important;
-  position: relative;
-  border-radius: 5px;
-  border: 0.5px solid #ddd;
-}
-.progressComponent .pg-bar-outr label {
-  position: absolute;
-  top: -22px;
-  left: 0;
-  font-size: 12px;
-  font-family: work_sansLight;
-  color: #444;
-}
-.pg-bar-inner {
-  background-color: #2ec77b !important;
-  height: 7px;
-  border-radius: 5px;
-}
-
-/* animation css start */
-
-@-webkit-keyframes slide-up {
-  from {
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes slide-up {
-  from {
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-/* animation css end */
