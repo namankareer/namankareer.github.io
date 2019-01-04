@@ -93,7 +93,7 @@
                                 <a class="prev disabled" href="javascript:void(0);"><i class="la la-angle-left"></i></a>
                                 <a class="next disabled" href="javascript:void(0);"><i class="la la-angle-right"></i></a>
                             </div>
-                            <div class="ques-image">
+                            <div class="ques-image hide">
                                 <img src="assets/images/question-img.jpg" alt="Question Image" />
                             </div>
                             <div class="ques-innerBox">
@@ -656,7 +656,7 @@
             let elHeight = el.height();
             let windowHeight = jQuery(window).height();
             let offset= elOffset - (0);
-            jQuery('.question-Section').animate({ scrollTop: offset }, 800, 'linear');
+            jQuery('.question-Section').animate({ scrollTop: offset }, 300, 'linear');
         
         });
     });
