@@ -8,7 +8,8 @@
   .leadform-input-outr {flex: 1;}
   .buildOutgrow {left: 50%;right: auto;transform: translateX(-50%);}
   
-  .realtime-result {right: 0;left: inherit;max-width: 50%;text-align: center;top: 15px;width: 100%; float: right;padding-right: 20px;}
+  .realtime-Progressbar .realtime-result {right: 0;left: inherit;max-width: 50%;text-align: center;top: 15px;width: 100%; float: right;padding-right: 20px;}
+  .progressComponent{ margin-left: 20px;}
   .question-mainBox {margin-left: 0;margin-right: 0; max-width: 100%; margin-bottom: 0px; border-radius: 0px;}
   .ques-innerBox{ padding: 15px;}
   .realtime-result span,.realtime-result p {text-align: right;}

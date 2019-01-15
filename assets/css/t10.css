@@ -88,13 +88,12 @@ textarea:-moz-placeholder {color: #444; opacity: 0.4;}
 .buildOutgrow a p {font-weight: 600; font-size: 11px;}
 
 
-.realtime-Progressbar {background-color: #e8ede9;position: absolute;bottom: 0;z-index: 9;float: left;width: 100%;min-height: 70px;box-shadow:3px 3px 60px 10px rgba(0,0,0,0.2);}
+.realtime-Progressbar {background-color: #e8ede9;position: absolute;bottom: 0;z-index: 9;float: left;width: 100%;min-height: 70px;box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.05);border-top: 1px solid #ddd;}
 .realtime-Progressbar + section.question-Section{position: fixed;height: calc(100% - 70px);overflow-y: auto;overflow-x: hidden;z-index: 1;width: 100%;top: 0px;}
 .realtime-Progressbar .landing-logo{ top: 15px; display: none;}
-.realtime-Progressbar .realtime-result{ top: 15px; right: inherit;left: 20px;text-align: left;}
-.realtime-Progressbar .realtime-result span {text-align: left;}
-.realtime-Progressbar .realtime-result p {text-align: left;}
-.realtime-Progressbar .buildOutgrow {right: 20px; bottom: 25px;}
+.realtime-Progressbar .realtime-result{ top: 15px; right: inherit;right: 40px;text-align: right;}
+.realtime-Progressbar .realtime-result span {text-align: right;}
+.realtime-Progressbar .realtime-result p {text-align: right;}
 
 /* Question Section css start */
 .section-question{float: none;width: 100%;display: table;min-height: auto;height: auto; position: relative;}
@@ -110,10 +109,10 @@ textarea:-moz-placeholder {color: #444; opacity: 0.4;}
 .question-progressbar ul {display: inline-block;}
 .question-progressbar ul li {display: inline-block;width: 8px;height: 8px;background: transparent;border-radius: 50%;border: 1px solid #2ec77b;}
 .question-progressbar ul li.active {background: #2ec77b;}
-.progressComponent {float: none;width: 100%;text-align: center;margin: 0 auto;max-width: 200px;margin-top: 42px;}
+.progressComponent {float: none;width: 100%;text-align: center;margin: 0 auto;max-width: 200px;margin-top: 42px; margin-left: 40px;}
 .pg-bar-outr {background-color: #fff !important; position: relative;border-radius: 5px;border: 0.5px solid #ddd;}
 .progressComponent .pg-bar-outr label {position: absolute;top: -22px;left: 0;font-size: 12px;font-family: work_sansLight;color: #444;}
-.pg-bar-inner {background-color: #2ec77b !important;height: 7px;border-radius: 5px; transition: 0.5s;}
+.pg-bar-inner {background-color: #2ec77b !important;height: 8px;border-radius: 5px; transition: 0.5s;}
 .question-mainBox {width: 100%; margin: 0 auto; border: 1px solid #ddd;display: flex;max-width: 648px;background: #fff;min-height: 250px;padding: 10px; align-items: center; border-radius:5px;flex-direction: column; justify-content: center; position: relative;}
 .ques-image {display: inline-block;}
 .ques-image img {max-width: 100%;max-height: 330px;}
