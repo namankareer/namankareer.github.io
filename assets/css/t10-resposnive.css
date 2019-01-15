@@ -20,6 +20,7 @@
   .result-leadform-outr {padding: 10px 20px;}
   .result-mainBox{ border-radius: 0px;}
   .result-innerBox{ padding: 0 15px;}
+  .result-heading{margin-top: 50px;}
   .result-leadform-input-outr {flex: 1;}
   .result-leadform-input-outr:nth-last-child(1):nth-child(odd){ width: 65%; flex: initial;}
   .result-socia-outr {padding: 0px 20px 30px 20px;}
