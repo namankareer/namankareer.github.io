@@ -19,7 +19,7 @@
 
   .section-buildoutgrow .buildOutgrow {left: inherit;transform: none;}
   .result-leadform-outr {padding: 10px 20px;}
-  .result-mainBox{ border-radius: 0px;}
+  .result-mainBox{ border-radius: 0px; min-height: 280px;}
   .result-innerBox{ padding: 0 15px;}
   .result-heading{margin-top: 70px;}
   .result-leadform-input-outr {flex: 1;}
