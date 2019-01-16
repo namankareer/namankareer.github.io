@@ -9,7 +9,7 @@
   .buildOutgrow {left: 50%;right: auto;transform: translateX(-50%);}
   
   .realtime-Progressbar .realtime-result {right: 0;left: inherit;max-width: 50%;text-align: center;top: 15px;width: 100%; float: right;padding-right: 20px;}
-  .progressComponent{ margin-left: 20px;}
+  .progressComponent{ margin-left: 20px; width: 230px;}
   .question-mainBox {margin-left: 0;margin-right: 0; max-width: 100%; margin-bottom: 0px; border-radius: 0px;}
   .ques-innerBox{ padding: 15px;}
   .realtime-result span,.realtime-result p {text-align: right;}
@@ -21,7 +21,7 @@
   .result-leadform-outr {padding: 10px 20px;}
   .result-mainBox{ border-radius: 0px;}
   .result-innerBox{ padding: 0 15px;}
-  .result-heading{margin-top: 50px;}
+  .result-heading{margin-top: 70px;}
   .result-leadform-input-outr {flex: 1;}
   .result-leadform-input-outr:nth-last-child(1):nth-child(odd){ width: 65%; flex: initial;}
   .result-socia-outr {padding: 0px 20px 30px 20px;}
